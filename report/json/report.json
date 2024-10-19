@@ -82,12 +82,16 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 702,
+                  "duration": 638,
                   "errors": [],
                   "stdout": [],
-                  "stderr": [],
+                  "stderr": [
+                    {
+                      "text": "AJV Validation Errors: data must be object\n"
+                    }
+                  ],
                   "retry": 0,
-                  "startTime": "2024-10-19T14:48:45.014Z",
+                  "startTime": "2024-10-19T16:27:33.510Z",
                   "attachments": []
                 }
               ],
@@ -114,12 +118,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 373,
+                  "duration": 274,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-19T14:48:45.776Z",
+                  "startTime": "2024-10-19T16:27:34.192Z",
                   "attachments": []
                 }
               ],
@@ -128,7 +132,7 @@
           ],
           "id": "74eb362fc69066390529-bd1699376964fb6cb870",
           "file": "apiTest.spec.js",
-          "line": 22,
+          "line": 32,
           "column": 1
         }
       ]
@@ -136,8 +140,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-10-19T14:48:39.713Z",
-    "duration": 6565.77,
+    "startTime": "2024-10-19T16:27:27.221Z",
+    "duration": 7690.031999999999,
     "expected": 2,
     "skipped": 0,
     "unexpected": 0,
